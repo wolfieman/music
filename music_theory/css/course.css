@@ -1,0 +1,30 @@
+
+.coursera-university-color {
+    color: #002675;
+}
+
+a.coursera-university-color {
+    color: #002675;
+}
+
+a.coursera-university-color:hover {
+  color: #0037a8;
+}
+
+body {
+  margin: 80px auto;
+  width: 70%;
+  color: #222;
+  font: normal 1.1em/1.5 Sans-Serif;
+}
+
+p.mnemonic {
+  text-transform: capitalize;
+}
+
+p::first-letter {
+  font-weight: bold;
+  margin: 1px 1px;
+  font-size: 18px;
+  line-height: 1;
+}
