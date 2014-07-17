@@ -15,10 +15,14 @@ body {
   margin: 80px auto;
   width: 70%;
   color: #222;
-  font: normal 1.1em/1.5 Sans-Serif;
+  font: normal 1.1em/1.5 sans-serif;
 }
 
 p.mnemonic {
+  text-transform: capitalize;
+}
+
+span.mnemonic {
   text-transform: capitalize;
 }
 
@@ -27,4 +31,22 @@ p::first-letter {
   margin: 1px 1px;
   font-size: 18px;
   line-height: 1;
+}
+
+figcaption::first-letter {
+  font-weight: bold;
+  margin: 1px 1px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+figure, figcaption {
+  display: block;
+  font-style: italic;
+}
+
+footer {
+  float:right;
+  text-align:right;
+  font-size:10px;
 }
